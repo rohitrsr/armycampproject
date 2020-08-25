@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header-links">
+<title>ATCG</title>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css"
+	media="all">
+	<link rel="stylesheet" type="text/css" href="../layout/styles/custom/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body id="top">
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- Top Background Image Wrapper -->
+	<div class="bgded row100"
+		style="background-image: url('images/demo/backgrounds/armyHomePageImage.jpg');">
+		<div class="overlay">
+			<!-- ################################################################################################ -->
+			<!-- ################################################################################################ -->
+			<!-- ################################################################################################ -->
+			<div th:fragment="menu_bar" class="wrapper row1">
+				<header id="header" class="clear">
+					<!-- ################################################################################################ -->
+					<div id="logo" class="fl_left">
+						<h1>
+							<a href="index">Army/Police Training Camp</a>
+						</h1>
+					</div>
+					<nav id="mainav" class="fl_right">
+						<ul class="clear">
+							<li class="active"><a href="index">Home</a></li>
+							<!-- <li><a class="drop" href="#">Pages</a>
+              <ul>
+                <li><a href="pages/gallery.html">Gallery</a></li>
+                <li><a href="pages/full-width.html">Full Width</a></li>
+                <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
+                <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
+                <li><a href="pages/basic-grid.html">Basic Grid</a></li>
+              </ul>
+            </li> -->
+							<li><a class="active" href="gallery">Gallery</a> <!-- <ul>
+                <li><a href="#">Level 2</a></li>
+                <li><a class="drop" href="#">Level 2 + Drop</a>
+                  <ul>
+                    <li><a href="#">Level 3</a></li>
+                    <li><a href="#">Level 3</a></li>
+                    <li><a href="#">Level 3</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Level 2</a></li>
+              </ul> --></li>
+							<li><a class="drop" href="#">Check Eligibility</a>
+								<ul>
+									<li><a href="armyEligibility">Army Uttarakhand</a></li>
+									<li><a href="policeEligibility">Police Uttarakhand</a></li>
+
+								</ul></li>
+							<li><a class="drop" href="#">Check Openings</a>
+								<ul>
+									<li><a href="https://www.onlinegovtjob.com/apply-indian-army-jobs/" target="_blank">Indian Army(भारतीय सेना) </a></li>
+									<li><a href="https://www.onlinegovtjob.com/category/police/" target="_blank">UK Police (उत्तराखंड पुलिस) </a></li>
+									<li><a href="https://www.onlinegovtjob.com/category/airforce/" target="_blank">Indian Airforce (भारतीय वायु सेना) </a></li>
+									<li><a href="https://www.onlinegovtjob.com/category/navy/" target="_blank">Indian Navy (भारतीय नौसेना)) </a></li>
+									<li><a href="https://www.onlinegovtjob.com/category/ssc-job-recruitment/" target="_blank">SSC (Gd/Clerk/Other) (एसएससी) </a></li>
+									
+								</ul></li>
+						</ul>
+					</nav>
+					<!-- ################################################################################################ -->
+				</header>
+			</div>
+			<!-- ################################################################################################ -->
+			<!-- ################################################################################################ -->
+			<!-- ################################################################################################ -->
+			<div id="pageintro" class="clear">
+				<!-- ################################################################################################ -->
+				<article>
+					<h2 class="heading">Welcome to Army/Police Training Camp
+						Gularbhoj , Uttarakhand</h2>
+					<p>Explore our site to know more</p>
+					<!-- <p>
+						<a class="btn" href="#">Varius risus</a>
+					</p> -->
+				</article>
+				<!-- ################################################################################################ -->
+			</div>
+			<!-- ################################################################################################ -->
+			<!-- ################################################################################################ -->
+			<!-- ################################################################################################ -->
+		</div>
+	</div>
+	<!-- End Top Background Image Wrapper -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<div class="wrapper customrow3">
+		<main class="container clear">
+			<!-- main body -->
+			<!-- ################################################################################################ -->
+			<article class="one_third first">
+				<h2 class="font-x2">Who we are?</h2>
+				<p class="btmspace-30">We provide physical and written exam
+					training for army and police recruitments.</p>
+				<!-- <p><a class="btn" href="#">Suspendisse euismod</a></p> -->
+			</article>
+			<article class="two_third">
+				<ul class="nospace group">
+					<li class="one_half first btmspace-30">
+						<h4 class="font-x1">Our Training Programs</h4>
+						<p>Duis pulvinar tortor a interdum sodales. Morbi pellentesque
+							enim augue, eu venenatis tortor.</p>
+					</li>
+					<li class="one_half btmspace-30">
+						<h4 class="font-x1">About Trainer</h4>
+						<p>Vitae aliquam faucibus massa laoreet nulla ornare in
+							feugiat sapien pretium phasellus a pellentesque elit sit.</p>
+					</li>
+					<li class="one_half first">
+						<h4 class="font-x1 uppercase">Training Fee</h4>
+						<p>Amet pharetra mauris. Vivamus id purus a ante venenatis
+							sollicitudin ut eu quam curabitur mauris turpis.</p>
+					</li>
+					<li class="one_half">
+						<h4 class="font-x1">Suspendisse id velit eget</h4>
+						<p>Bibendum sed sollicitudin eget, convallis ac sem. Integer
+							orci orci, faucibus eget odio eget, pretium auctor.</p>
+					</li>
+				</ul>
+			</article>
+			<!-- ################################################################################################ -->
+			<!-- / main body -->
+			<div class="clear"></div>
+		</main>
+	</div>
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- <div class="split clear light rightaligned" style="background-image:url('images/demo/backgrounds/armyImage2.jpg');background-size: auto">
+  <div class="box"> 
+    ################################################################################################
+    <div class="nospace group services">
+      <article class="one_half first btmspace-50"><i class="fa fa-mortar-board"></i>
+        <h4><a href="#">Our Achievements</a></h4>
+        <p class="nospace">We have 90% track records of our students getting selected in army/police physical test. Thousands of our student are already serving for the nation.</p>
+      </article>
+      <article class="one_half btmspace-50"><i class="fa fa-binoculars"></i>
+        <h4><a href="#">Luctus venenatis</a></h4>
+        <p class="nospace">Nulla porta vulputate nibh, malesuada consequat velit finibus et. Sed dignissim fringilla tincidunt! Quisque pharetra et erat ac ultricies vivamus. &hellip;</p>
+      </article>
+      <article class="one_half first"><i class="fa fa-newspaper-o"></i>
+        <h4><a href="#">Nam feugiat dui</a></h4>
+        <p class="nospace">Imperdiet enim ex, eu faucibus ligula blandit sit amet. Nulla aliquet in ipsum vel egestas. Aenean faucibus faucibus erat, eget tincidunt dui aliquam eu &hellip;</p>
+      </article>
+      <article class="one_half"><i class="fa fa-connectdevelop"></i>
+        <h4><a href="#">Malesuada risus</a></h4>
+        <p class="nospace">Integer leo dolor, ultrices ut dolor et, lacinia tempor nisi. Curabitur finibus augue in rutrum fringilla? Suspendisse pulvinar vulputate nulla in placerat. &hellip;</p>
+      </article>
+    </div>
+    ################################################################################################
+  </div>
+</div> -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- <div class="wrapper">
+  <ul class="nospace group clrbox">
+    <li class="mt-green">
+      <article>
+        <h4 class="heading">Eleifend donec sagittis</h4>
+        <p>Vestibulum mollis fringilla odio a efficitur duis pharetra ac nibh ac efficitur ut eleifend consectetur porttitor pellent esque &hellip;</p>
+        <p><a class="btn" href="#">Donec rutrum</a></p>
+      </article>
+    </li>
+    <li class="mt-orange">
+      <article>
+        <h4 class="heading">Integer sed iaculis elit</h4>
+        <p>Phasellus non neque nulla curabitur varius sagittis libero, vel commodo nisl aliquet nec donec vel ex metus faucibus &hellip;</p>
+        <p><a class="btn" href="#">Convallis laoreet</a></p>
+      </article>
+    </li>
+    <li class="mt-purple">
+      <article>
+        <h4 class="heading">Nullam mollis auctor</h4>
+        <p>Tellus ac facilisis dolor nullam vestibulum massa volutpat tristique commodo nunc purus pulvinar lacus quis hendrerit &hellip;</p>
+        <p><a class="btn" href="#">Nulla quis leo</a></p>
+      </article>
+    </li>
+    <li class="mt-red">
+      <article>
+        <h4 class="heading">Integer consequat arcu</h4>
+        <p>Ut placerat felis sodales accumsan vulputate sem eros dapibus urna quis tristique urna odio vel arcu vivamus accumsan &hellip;</p>
+        <p><a class="btn" href="#">Tincidunt posuere</a></p>
+      </article>
+    </li>
+  </ul>
+</div> -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<div class="wrapper">
+		<ul class="nospace group latest">
+			<li class="one_half nospace first">
+				<article>
+					<h2 class="heading">OUR ACHIEVEMENTS</h2>
+					<p style="font-style: italic; font-size: x-large;">We have 90%
+						track records of our students getting selected in army/police
+						physical test. Thousands of our student are already serving for
+						the nation.
+						gffdbgdfbdfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+						dffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+						dffffffffffffffffffffffffffffffffffffffffffb</p>
+					<!-- <p><a class="btn" href="#">Vel tortor</a></p> -->
+				</article>
+			</li>
+			<!--  <li class="one_quarter nospace">
+      <figure><img src="images/demo/latest/01.png" alt="">
+        <figcaption>
+          <time datetime="2045-04-06">6<sup>th</sup> April 2045</time>
+          <p>Sed egestas sapien</p>
+          <p><a href="#">More &raquo;</a></p>
+        </figcaption>
+      </figure>
+    </li>
+    <li class="one_quarter nospace">
+      <figure><img src="images/demo/latest/02.png" alt="">
+        <figcaption>
+          <time datetime="2045-04-06">6<sup>th</sup> April 2045</time>
+          <p>Proin dapibus lacinia</p>
+          <p><a href="#">More &raquo;</a></p>
+        </figcaption>
+      </figure>
+    </li>
+    <li class="one_quarter nospace first">
+      <figure><img src="images/demo/latest/01.png" alt="">
+        <figcaption>
+          <time datetime="2045-04-06">6<sup>th</sup> April 2045</time>
+          <p>Maximus accumsan lorem</p>
+          <p><a href="#">More &raquo;</a></p>
+        </figcaption>
+      </figure>
+    </li>
+    <li class="one_quarter nospace">
+      <figure><img src="images/demo/latest/02.png" alt="">
+        <figcaption>
+          <time datetime="2045-04-06">6<sup>th</sup> April 2045</time>
+          <p>Gravida eget nisl et</p>
+          <p><a href="#">More &raquo;</a></p>
+        </figcaption>
+      </figure>
+    </li> -->
+			<li class="one_half nospace">
+				<figure>
+					<img class="mySlides" src="images/demo/backgrounds/armyImage2.jpg" alt="">
+					<img class="mySlides" src="images/demo/gallery/army5.jpg" alt="" >
+					<img class="mySlides" src="images/demo/gallery/army8.jpg" alt="">
+					<img class="mySlides" src="images/demo/gallery/army12.jpg" alt="">
+					
+					<figcaption>
+						<time datetime="2045-04-06">
+							6<sup>th</sup> April 2045
+						</time>
+						<p>Integer ante enim</p>
+						<p>
+							<a href="#">More &raquo;</a>
+						</p>
+					</figcaption>
+				</figure>
+			</li>
+		</ul>
+	</div>
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<div class="bgded" style="background-color: lightgrey;">
+		<div class="overlay2 light">
+			<div id="shout" class="clear center">
+				<!-- ################################################################################################ -->
+				<h2 class="font-x2 btmspace-30 customh2">We believe in smart
+					work and achieve success</h2>
+				<!-- <ul class="nospace inline pushright">
+        <li><a class="btn" href="#">Efficitur diam</a></li>
+        <li><a class="btn" href="#">Fermentum nisi</a></li>
+      </ul> -->
+				<!-- ################################################################################################ -->
+			</div>
+		</div>
+	</div>
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<div th:fragment="contact_section" class="wrapper row4">
+		<footer id="footer" class="clear">
+			<!-- ################################################################################################ -->
+			<div style="text-align: center;">
+				<h6 class="title">Contact and Address</h6>
+				<address class="btmspace-15">
+					Gularbhoj Army/Police Training Camp<br> Gularbhoj
+					Mandi,Gularbhoj,Udham Singh Nagar , Uttarakhand <br>
+					Town:Gadarpur<br> Postcode/Zip :262401
+				</address>
+				<ul class="nospace">
+					<li class="btmspace-10"><i class="fa fa-phone"></i> +91
+						9756301242</li>
+					<li><i class="fa fa-envelope-o"></i> info@domain.com</li>
+				</ul>
+			</div>
+			<!-- <div class="one_quarter">
+      <h6 class="title">From The Blog</h6>
+      <article>
+        <h2 class="nospace font-x1"><a href="#">Maecenas pretium</a></h2>
+        <time class="smallfont" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+        <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed.</p>
+      </article>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Sed consectetur enim</h6>
+      <ul class="nospace linklist">
+        <li><a href="#">Nullam id est condimen</a></li>
+        <li><a href="#">Praesent eget purus ut</a></li>
+        <li><a href="#">Ut quis augue quis neque</a></li>
+        <li><a href="#">Quisque varius erat sed</a></li>
+        <li><a href="#">Fusce quis dolor et</a></li>
+      </ul>
+    </div>
+    <div class="one_quarter">
+      <h6 class="title">Proin et magna eget</h6>
+      <p>Curabitur a sapien tincidunt, ullamcorper mauris sit amet, ornare augue.</p>
+      <p>Sed eget ultricies sem. Proin quis lacus egestas, adipiscing nunc ornare, gravida diam.</p>
+    </div> -->
+			<!-- ################################################################################################ -->
+		</footer>
+	</div>
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<div th:fragment="copyright_section" class="wrapper row5">
+		<div id="copyright" class="clear">
+			<!-- ################################################################################################ -->
+			<p class="fl_left">
+				Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain
+					Name</a>
+			</p>
+			<p class="fl_right">
+				Template by <a target="_blank" href="https://www.os-templates.com/"
+					title="Free Website Templates">OS Templates</a>
+			</p>
+			<!-- ################################################################################################ -->
+		</div>
+		<!-- JAVASCRIPTS -->
+		<script src="layout/scripts/jquery.min.js"></script>
+		<script src="layout/scripts/jquery.backtotop.js"></script>
+		<script src="layout/scripts/jquery.mobilemenu.js"></script>
+		<script type="text/javascript" src="../layout/scripts/custom/slideShow.js" ></script>
+		
+	</div>
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
+
+</body>
+</html>

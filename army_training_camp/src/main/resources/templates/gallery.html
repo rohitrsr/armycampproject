@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<span th:replace="./index::header-links"></span>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded row100" style="background-image:url('../images/demo/backgrounds/armyHomePageImage.jpg');">
+  <div class="overlay"> 
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    
+<span th:replace="./index::menu_bar"></span>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- <div class="wrapper row2">
+  <div id="breadcrumb" class="clear"> 
+    ################################################################################################
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Lorem</a></li>
+      <li><a href="#">Ipsum</a></li>
+      <li><a href="#">Dolor</a></li>
+    </ul>
+    ################################################################################################
+  </div>
+</div> -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="containerG clear"> 
+  
+  
+  
+  <div class="modal fade" id="imagemodal" role="dialog">
+    <div class="modal-dialog">
+    
+<!--       Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+        <!-- <h4 class="modal-title">Happiness Graph</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+        </div>
+        <div class="modal-body">
+         <img src="" class="imagepreview" style="width: 100%;" >
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <!-- <div class="content"> 
+    
+    		Modal
+  <div class="modal fade" id="imagemodal" role="dialog">
+    <div class="modal-dialog">
+    
+      Modal content
+      <div class="modal-content">
+        <div class="modal-header">
+        <h4 class="modal-title">Happiness Graph</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+         <img src="" class="imagepreview" style="width: 100%;" >
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    
+      ################################################################################################
+      <div id="gallery">
+        <figure>
+          <header class="heading">Camp Training Session Photos</header>
+          <ul class="nospace clear gallery-items">
+            <li class="one_quarter first item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+            <img src="../images/demo/gallery/armyHomePageImage.jpg" alt=""></a></li>
+            <li class="one_quarter item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/armyImage2.jpg" alt=""></a></li>
+            <li class="one_quarter item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter first item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter first item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+            <li class="one_quarter item"><a class="pop" data-toggle="modal" data-target="#imagemodal" href="#"><img src="../images/demo/gallery/01.png" alt=""></a></li>
+          </ul>
+          
+          <figcaption>Gallery Description Goes Here</figcaption>
+        </figure>
+      </div>
+      ################################################################################################
+      ################################################################################################
+      <nav class="pagination">
+        <ul>
+          <li><a href="#">&laquo; Previous</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><strong>&hellip;</strong></li>
+          <li><a href="#">6</a></li>
+          <li class="current"><strong>7</strong></li>
+          <li><a href="#">8</a></li>
+          <li><a href="#">9</a></li>
+          <li><strong>&hellip;</strong></li>
+          <li><a href="#">14</a></li>
+          <li><a href="#">15</a></li>
+          <li><a href="#">Next &raquo;</a></li>
+        </ul>
+      </nav>
+      ################################################################################################
+    </div> -->
+    <!-- ################################################################################################ -->
+    
+    
+    <section class="gallery">
+	<div class="containerG">
+		<div class="title">
+			<h1>Gallery</h1>
+		</div>
+		<div class="gallery-items">
+			<div class="one_quarter first item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/armyHomePageImage.jpg" alt="gallery" />
+				</a>
+				<div class="caption">
+					1
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/armyImage2.jpg" alt="gallery" /></a>
+				<div class="caption">
+					2
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army3.jpg" alt="gallery" /></a>
+				<div class="caption">
+					3
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army4.jpg" alt="gallery" /></a>
+				<div class="caption">
+					4
+				</div>
+			</div>
+			<div class="one_quarter first item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army5.jpg" alt="gallery" /></a>
+				<div class="caption">
+					5
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army6.jpg" alt="gallery" /></a>
+				<div class="caption">
+					6
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army7.jpg" alt="gallery" /></a>
+				<div class="caption">
+					7
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army8.jpg" alt="gallery" /></a>
+				<div class="caption">
+					8
+				</div>
+			</div>
+			<div class="one_quarter first item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army9.jpg" alt="gallery" /></a>
+				<div class="caption">
+					9
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army10.jpg" alt="gallery" /></a>
+				<div class="caption">
+					10
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army11.jpg" alt="gallery" /></a>
+				<div class="caption">
+					11
+				</div>
+			</div>
+			<div class="item">
+						<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army12.jpg" alt="gallery" /></a>
+				<div class="caption">
+					12
+				</div>
+			</div>
+			<div class="one_quarter first item">
+						<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army13.jpg" alt="gallery" /></a>
+				<div class="caption">
+					13
+				</div>
+			</div>
+			<div class="item">
+						<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">		
+				<img src="../images/demo/gallery/army14.jpg" alt="gallery" /></a>
+				<div class="caption">
+					14
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army15.jpg" alt="gallery" /></a>
+				<div class="caption">
+					15
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army16.jpg" alt="gallery" /></a>
+				<div class="caption">
+					16
+				</div>
+			</div>
+			<div class="one_quarter first item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army17.jpg" alt="gallery" /></a>
+				<div class="caption">
+					17
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/army18.jpg" alt="gallery" /></a>
+				<div class="caption">
+					18
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/01.png" alt="gallery" /></a>
+				<div class="caption">
+					19
+				</div>
+			</div>
+			<div class="item">
+			<a class="pop" data-toggle="modal" data-target="#imagemodal" href="#">
+				<img src="../images/demo/gallery/01.png" alt="gallery" /></a>
+				<div class="caption">
+					20
+				</div>
+			</div>
+		</div>
+		<div class="pagination">
+			<div class="prev">Prev</div>
+			<div class="page">Page <span class="page-num"></span></div>
+			<div class="next">Next</div>
+		</div>
+	</div>
+</section>
+    
+    
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded" style="background-color: lightgrey;">
+		<div class="overlay2 light">
+			<div id="shout" class="clear center">
+				<!-- ################################################################################################ -->
+				<h2 class="font-x2 btmspace-30 customh2">We believe in smart
+					work and achieve success</h2>
+				<!-- <ul class="nospace inline pushright">
+        <li><a class="btn" href="#">Efficitur diam</a></li>
+        <li><a class="btn" href="#">Fermentum nisi</a></li>
+      </ul> -->
+				<!-- ################################################################################################ -->
+			</div>
+		</div>
+	</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<span th:replace="/index::contact_section"></span>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<span th:replace="./index::copyright_section"></span>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a> 
+<script type="text/javascript" src="../layout/scripts/custom/imagePreview.js" ></script>
+<script type="text/javascript" src="../layout/scripts/custom/script.js" ></script>
+
+
+</body>
+</html>
