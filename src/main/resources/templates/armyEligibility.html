@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-<span th:replace="./index::header-links"></span>
+<span th:replace="./index::header-links" th:remove="tag"></span>
 <body id="top">
 
 	<!-- Top Background Image Wrapper -->
 	<div class="bgded row100"
 		style="background-image: url('../images/demo/backgrounds/armyHomePageImage.jpg');">
 		<div class="overlay">
-			<span th:replace="./index::menu_bar"></span>
+			<span th:replace="./index::menu_bar" th:remove="tag"></span>
 		</div>
 	</div>
 	<!-- End Top Background Image Wrapper -->
@@ -756,11 +756,11 @@
 	<!-- ################################################################################################ -->
 	<!-- ################################################################################################ -->
 	<!-- ################################################################################################ -->
-	<span th:replace="/index::contact_section"></span>
+	<span th:replace="./index::contact_section" th:remove="tag"></span>
 	<!-- ################################################################################################ -->
 	<!-- ################################################################################################ -->
 	<!-- ################################################################################################ -->
-	<span th:replace="./index::copyright_section"></span>
+	<span th:replace="./index::copyright_section" th:remove="tag"></span>
 	<!-- ################################################################################################ -->
 	<!-- ################################################################################################ -->
 	<!-- ################################################################################################ -->
