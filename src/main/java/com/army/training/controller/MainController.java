@@ -16,6 +16,11 @@ public class MainController {
 		return "gallery";
 	}
 	
+	@GetMapping("newGallery")
+	public String galleryNew() {
+		return "newGallery";
+	}
+	
 	@GetMapping("armyEligibility")
 	public String armyEligibilityPage() {
 		return "armyEligibility";
